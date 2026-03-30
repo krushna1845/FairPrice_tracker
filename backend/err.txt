@@ -1,0 +1,8 @@
+C:\Users\acer\OneDrive\Desktop\Market-buddy\backend\app\api\v1\market.py:46: FastAPIDeprecationWarning: `example` has been deprecated, please use `examples` instead
+  q: str = Query(..., min_length=1, description="Search keyword", example="Apple"),
+INFO:     Started server process [7276]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 13] error while attempting to bind on address ('127.0.0.1', 8000): [winerror 10013] an attempt was made to access a socket in a way forbidden by its access permissions
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
